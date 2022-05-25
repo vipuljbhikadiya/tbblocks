@@ -1,0 +1,48 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "tbblocks/paragraph",
+	"version": "0.1.5",
+	"title": "Paragraph",
+	"category": "theme",
+	"keywords": [ "paragraph", "detail" ],
+	"description": "A gutenberg block to use for Paragraph.",
+	"supports": {
+		"html": false,
+		"anchor": true
+	},
+	"attributes": {
+		"textAlign": {
+			"type": "string",
+			"default": "left"
+		},
+		"content": {
+			"type": "string",
+			"source": "html",
+			"selector": "p,span",
+			"default": ""
+		},
+		"tag": {
+			"type": "string",
+			"default": "p"
+		},
+		"placeholder": {
+			"type": "string",
+			"default": "Add text here..."
+		},
+		"textColor": {
+			"type": "string",
+			"default": "#343434"
+		},
+		"textColorClass": {
+			"type": "string",
+			"default": "five"
+		},
+		"textStyle": {
+			"type": "string",
+			"default": "one"
+		}
+	},
+	"textdomain": "tbblocks",
+	"editorScript": "blocks-3.js"
+}

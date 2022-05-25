@@ -1,0 +1,265 @@
+@import 'variables';
+
+
+body{
+    font-size: 14px;
+    line-height: 24px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+// background-color
+
+.bg--color-two{
+    background-color: $color-two;   
+}
+
+.bg--color-five{
+    background-color: $color-five;
+}
+
+.bg--color-six{
+    background-color: $color-six;
+}
+
+.bg--color-seven{
+    background-color: $color-seven;
+}
+
+
+
+// headline
+
+.headline--style-one{
+    font-size: 30px;
+    line-height: 32px;
+    font-weight: bold;
+    margin-top:0px;
+    margin-bottom: 25px;
+}
+
+.headline--style-two{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: bold;
+    margin-top:0px;
+    margin-bottom: 25px;
+}
+
+.headline--style-three{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: bold;
+    margin-top:0px;
+    margin-bottom: 20px;
+}
+
+.headline--style-four{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+    margin-top:0px;
+    margin-bottom: 15px;
+}
+
+.headline--weight-light{
+    font-weight: light;
+}
+
+.headline--align-left{
+    text-align: left;
+}
+
+.headline--align-center{
+    text-align: center;
+}
+
+.headline--align-right{
+    text-align: right;
+}
+
+.headline--color-one{
+    $color: $color-four;
+}
+
+.headline--color-two{
+    $color: $color-three;
+}
+
+.headline--color-three{
+    $color: $color-five;
+}
+
+.headline--color-four{
+    $color: $color-one;
+}
+
+// text-stylesheet
+
+.text--style-one{
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.text--style-two{
+    font-size: 21px;
+    line-height: 30px; 
+}
+
+.text--align-left{
+    text-align: left;  
+}
+
+.text--align-center{
+    text-align: center;  
+}
+
+.text--align-right{
+    text-align: right;  
+}
+
+.text--color-one{
+    color: $color-four;
+}
+
+.text--color-two{
+    color: $color-three;
+}
+
+.text--color-three{
+    color: $color-five;
+}
+
+.text--color-four{
+    color: $color-one;
+}
+
+
+// list stylesheet
+
+.list--style-one{
+    list-style: disc;
+    font-size: 15px;
+    line-height: 16px;
+}
+
+.list--style-one li + li{
+    margin-top: 15px;
+}
+
+.list--style-two{
+    list-style: none;
+    color: $color-three;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: semi-bold;
+    padding: 0px;
+    margin: 0px;
+}
+
+.list--style-two li{
+    position: relative;
+    padding-top: 18px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    border-bottom: 1px solid $color-three;
+}
+
+.list--style-two li:before{
+    content: "";
+    position: absolute;
+    left: 10px;
+    top : 16px;
+    height: 11px;
+    border-color:#fff;
+    --b: 1px;
+    width: 11px;
+    aspect-ratio: 1/1;
+    background:
+      conic-gradient(from 90deg at var(--b) var(--b),rgb(0,0,0,0) 90deg, $color-three 0) 
+      calc(100% + var(--b)/2) calc(100% + var(--b)/2)/
+      calc(50%  + var(--b))   calc(50%  + var(--b));
+}
+
+
+// buttons
+
+
+.button--style-one{
+    padding: 18px 23px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: bold;
+}
+
+.button--style-two{
+    padding: 18px 23px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: bold;
+}
+
+.button--style-three{
+    padding: 18px 23px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: bold;
+    background-color: transparent !important;
+}
+
+.button--color-one{
+    background-color: $color-five;
+    border-color: $color-five;
+}
+
+.button--color-one{
+    background-color: $color-five;
+    border-color: $color-five;
+    color: $color-one;
+}
+
+.button--color-two{
+    background-color: $color-four;
+    border-color: $color-four;
+    color: $color-one;
+}
+
+.button--color-three{
+    background-color: $color-two;
+    border-color: $color-two;
+    color: $color-four;
+}
+
+.button--color-four{
+    background-color: $color-one;
+    border-color: $color-one;
+    color: $color-four;
+}
+
+
+
+
+

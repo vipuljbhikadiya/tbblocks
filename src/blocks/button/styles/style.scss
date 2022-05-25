@@ -1,0 +1,50 @@
+.button--align-{
+    &center{
+        text-align: center;
+        margin: 0px auto;
+    }
+    &left{
+        text-align: left;
+        margin-right: auto;
+    }
+    &right{
+        text-align: right;
+        margin-left: auto;
+    }
+}
+.button--width-{
+    &inline{
+        max-width: 318px!important;
+    }
+    &one{
+        max-width: 25%!important;
+    }
+    &two{
+        max-width: 50%!important;
+    }
+    &three{
+        max-width: 75%!important;
+    }
+    &four{
+        max-width: 100%!important;
+    }
+}
+.button--style-{
+    &one{
+        font-size: 16px;
+        line-height: 21px;
+    }
+    &two{
+        font-size: 18px;
+        line-height: 23px;
+    }
+}
+.col__content .button{
+    width: 100%;
+    padding: 12px 0px 13px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100px;
+    font-family: 'Poppins', sans-serif;
+    display: block;
+}
